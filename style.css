@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+body {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
 .header-wrapper {
 	display: flex;
 	justify-content: space-between;
@@ -17,13 +21,13 @@
 
 .logo h1 {
 	font-size: 40px;
-	font-weight: 600;
+	font-weight: 800;
 }
 
 .logo span {
 	font-weight: 100;
-	font-size: 90px;
-	margin-left: -14px;
+	font-size: 70px;
+	margin-left: -10px;
 }
 
 .nav ul {
@@ -43,6 +47,7 @@ a {
 	text-decoration: none;
 	padding: 5px 30px;
 	transition: all 0.25s ease-in-out;
+	background: transparent;
 }
 
 a:visited {
