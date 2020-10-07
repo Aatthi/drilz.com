@@ -13,6 +13,7 @@ body {
 	justify-content: space-between;
 	text-align: center;
 	align-items: center;
+	background: url(https://youtu.be/QXoNoKQE8Tg);
 }
 
 .logo {
@@ -45,7 +46,7 @@ body {
 a {
 	color: black;
 	text-decoration: none;
-	padding: 5px 30px;
+	padding: 40px 30px;
 	transition: all 0.25s ease-in-out;
 	background: transparent;
 }
@@ -58,5 +59,85 @@ a:visited {
 a:hover {
 	background: black;
 	color: white;
-	border-radius: 20px;
+}
+
+.main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 800px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.main div {
+	padding: 30px 0;
+	width: 100%;
+	transition: all 0.4s;
+}
+
+/* .learn:hover {
+	padding: 30px 900px 30px 0;
+	background: black;
+	color: white;
+	width: 100%;
+}
+
+.Experiment:hover {
+	padding: 30px 0 30px 900px;
+	background: black;
+	color: white;
+}
+
+.Perform:hover {
+	padding: 30px 900px 30px 0;
+	background: black;
+	color: white;
+}
+
+.Struggle:hover {
+	padding: 30px 0 30px 900px;
+	background: black;
+	color: white;
+}
+
+.Thrive:hover {
+	padding: 30px 900px 30px 0;
+	background: black;
+	color: white;
+} */
+
+.expand-1 {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.expand-2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.expand-1:hover {
+	color: white;
+	background: black;
+	color: white;
+}
+
+.expand-2:hover {
+	color: white;
+	background: black;
+	color: white;
+}
+
+#para {
+	color: white;
+	text-align: center;
+	margin: 30px 0;
+	font-size: 20px;
+	padding: 0 50px;
 }

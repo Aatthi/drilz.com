@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <div class="header-wrapper">
@@ -21,5 +22,119 @@
             </ul>
         </div>
     </div>
+
+
+    <div class="video-background">
+        <div class="video-foreground">
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/QXoNoKQE8Tg?autoplay=1" frameborder="0" allow="autoplay;" allowfullscreen></iframe>
+        </div>
+      </div>
+    
+
+    <div class="main-wrapper">
+        <div class="main">
+            <div  id="learn" onmouseover="learn()" onmouseout="learnOut()" class="expand-1">
+                <h1 class="learn">Learn</h1>
+            </div>
+
+            <script>
+                function learn(){
+                    const para = document.createElement("P");
+                    para.setAttribute("id", "para")
+                    para.innerHTML = "The Learning stage is where all new knowledge is introduced about a skill. It is important not to overload the brain with too much input."
+                    document.getElementById("learn").appendChild(para)
+                    
+                }
+        
+                function learnOut(){
+                    const getrid = document.getElementById("para")
+                    getrid.remove();
+                }
+        
+          
+            </script>
+
+            <div id="experiment" class="expand-2" onmouseover="experiment()" onmouseout="experimentOut()">  
+                <h1 class="Experiment">Experiment</h1>
+            </div>
+
+            <script>
+                function experiment() {
+                    const para = document.createElement("P");
+                    para.setAttribute("id", "para");
+                    para.innerHTML= "Here you use the information from the learning stage to trial the skill. There will be numerous failed attempts until you become comfortable processing the learn information"
+                    document.getElementById("experiment").appendChild(para);
+                    para.setAttribute("onmouseover", "experiment()");
+            }
+    
+                function experimentOut(){
+                    const getrid = document.getElementById("para")
+                    getrid.remove();
+            }
+        </script>
+
+            <div id="perform" class="expand-1" onmouseover="perform()" onmouseout="performOut()">
+                <h1 class="Perform">Perform</h1>
+            </div>
+
+            <script>
+
+                function perform(){
+                    const para = document.createElement("P");
+                    para.setAttribute("id", "para");
+                    para.innerHTML = "Here you use both what you have learnt from the experiment stage and implement it into the in-game situation";
+                    document.getElementById("perform").appendChild(para)
+                }
+
+                function performOut() {
+                    const getrid = document.getElementById("para");
+                    getrid.remove();
+                }
+
+            </script>
+
+            <div id="struggle" class="expand-2" onmouseover="struggle()" onmouseout="struggleOut()">
+                <h1 class="Struggle">Struggle</h1>
+            </div>
+
+            <script>
+                function struggle() {
+                    const para = document.createElement("P");
+                    para.setAttribute("id", "para");
+                    para.innerHTML = "This stage may vary depending on the skill and each Individual. Here you will most likely experience success in training where you will complete the skill numerous times. However there will be times where you will fail in applying this skill to various in-game situations. You will need to refine and continuously repeat the skill in training and mimic in game situations."
+                    document.getElementById("struggle").appendChild(para)
+                }
+
+                function struggleOut() {
+                    const getrid = document.getElementById("para");
+                    getrid.remove();
+                }
+
+            </script>
+
+            <div id="thrive" id="" class="expand-1" onmouseover="thrive()" onmouseout="thriveOut()">
+                <h1 class="Thrive">Thrive</h1>
+            </div>
+
+            <script>
+                function thrive() {
+                    const para = document.createElement("P");
+                    para.setAttribute("id", "para");
+                    para.innerHTML = "With enough practice and sufficient exposure of the skill during in-game situations, you will successfully complete the skill with minimal effort and minimal chance of failure. "
+                    document.getElementById("thrive").appendChild(para)
+                }
+
+                function thriveOut() {
+                    const getrid = document.getElementById("para");
+                    getrid.remove();
+                }
+
+            </script>
+        </div>
+    </div>
+
+ 
+
+
 </body>
 </html>
