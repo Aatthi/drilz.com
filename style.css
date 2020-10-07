@@ -13,7 +13,23 @@ body {
 	justify-content: space-between;
 	text-align: center;
 	align-items: center;
-	background: url(https://youtu.be/QXoNoKQE8Tg);
+}
+
+.main-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: transparent;
+}
+
+.video-background {
+	display: flex;
+	justify-content: center;
+}
+
+iframe {
+	width: 1280px;
+	height: 720px;
 }
 
 .logo {
@@ -46,7 +62,7 @@ body {
 a {
 	color: black;
 	text-decoration: none;
-	padding: 40px 30px;
+	padding: 35px 30px;
 	transition: all 0.25s ease-in-out;
 	background: transparent;
 }
@@ -66,13 +82,13 @@ a:hover {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	height: 800px;
+	height: 300px;
 	width: 100%;
 	margin: 0 auto;
 }
 
 .main div {
-	padding: 30px 0;
+	padding: 40px 0;
 	width: 100%;
 	transition: all 0.4s;
 }
@@ -137,7 +153,7 @@ a:hover {
 #para {
 	color: white;
 	text-align: center;
-	margin: 30px 0;
+	margin: 27px 0;
 	font-size: 20px;
 	padding: 0 50px;
 }
