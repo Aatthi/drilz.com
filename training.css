@@ -16,12 +16,6 @@ body {
 	background-color: rgba(0, 0, 0, 0.05);
 }
 
-/* 
-iframe {
-	width: 1280px;
-	height: 720px;
-} */
-
 .logo {
 	margin: 0 30px;
 	width: 100%;
@@ -49,10 +43,6 @@ iframe {
 	align-items: center;
 	margin: 0 30px;
 	text-align: center;
-}
-
-video {
-	border-radius: 100px;
 }
 
 .nav li {
@@ -100,10 +90,12 @@ a:visited {
 
 .drill-2 {
 	margin: 50px 0;
+	background-color: rgba(0, 0, 0, 0.05);
 }
 
 .drill-1 div {
 	margin: 0 30px;
+	background-color: transparent;
 }
 
 .info-flex {
@@ -116,4 +108,89 @@ a:visited {
 
 .info-flex h1 {
 	margin: 30px 0;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 800;
+}
+
+.info-flex p {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 300;
+}
+
+@media (max-width: 1345px) {
+	.main-wrapper {
+		width: 100%;
+		margin: 0 auto;
+		padding: 100px 0;
+	}
+	.drill-2 div {
+		margin: 0 30px;
+		background-color: transparent;
+	}
+}
+
+@media (max-width: 1068px) {
+	.main-wrapper img {
+		width: 400px;
+		height: 300px;
+	}
+}
+
+@media (max-width: 930px) {
+	.drill div {
+		margin: 0 10px;
+	}
+	.header-wrapper {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		height: 150px;
+	}
+
+	.header-wrapper a {
+		padding: 15px 30px;
+	}
+}
+
+@media (max-width: 790px) {
+	.main-wrapper img {
+		width: 400px;
+		height: 300px;
+	}
+}
+
+@media (max-width: 859px) {
+	.header-wrapper li {
+		margin: 0 5px;
+	}
+
+	.nav ul {
+		margin: 0 10px;
+	}
+}
+
+@media (max-width: 690px) {
+	.drill {
+		flex-direction: column;
+	}
+	.main-wrapper img {
+		margin: 20px 10px;
+	}
+
+	.drill-2 {
+		flex-direction: column-reverse;
+	}
+}
+
+@media (max-width: 532px) {
+	.header-wrapper li {
+		margin: 0;
+	}
+
+	.nav ul {
+		margin: 0 5px;
+	}
+	.about-wrapper p {
+		font-size: 16px;
+	}
 }
