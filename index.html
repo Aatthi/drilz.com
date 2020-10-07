@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;800&display=swap" rel="stylesheet">
     
 </head>
 <body>
@@ -24,19 +25,26 @@
     </div>
 
 <div class="main-wrapper">
-    <div class="video-background">
+    <div class="about-wrapper">
+        <div>
+            <h1>About this Site</h1>
+            <p>This website aims to inform you on how to approach training for football specifically</p>
+            <p>If you are disciplined and follow the 5 steps labeled below you will have no trouble finding success at training and during the game</p>
+        </div>
+    </div>
+    <!-- <div class="video-background">
         <div class="video-background">
             <iframe  src="https://www.youtube.com/embed/QXoNoKQE8Tg?autoplay=1&mute=1&enablejsapi=1&rel=0&modestbranding=1&controls=0" frameborder="0" allow="autoplay;" allowfullscreen></iframe>
         </div>
-      </div>
-
-    
-    
-
+      </div> -->
 
         <div class="main">
-            <div  id="learn" onmouseover="learn()" onmouseout="learnOut()" class="expand-1">
-                <h1 class="learn">Learn</h1>
+            <div class="skill-aq">
+                <h1>5 steps of skill acquisition</h1>
+                <p>(hover over each step to find out more)</p>
+            </div>
+            <div  id="learn"  onmouseover="learn()" onmouseout="learnOut()" class="expand-1">
+                <h1 class="step learn">Learn</h1>
             </div>
 
             <script>
@@ -57,14 +65,14 @@
             </script>
 
             <div id="experiment" class="expand-2" onmouseover="experiment()" onmouseout="experimentOut()">  
-                <h1 class="Experiment">Experiment</h1>
+                <h1 class="step  Experiment">Experiment</h1>
             </div>
 
             <script>
                 function experiment() {
                     const para = document.createElement("P");
                     para.setAttribute("id", "para");
-                    para.innerHTML= "Here you use the information from the learning stage to trial the skill. There will be numerous failed attempts until you become comfortable processing the learn information in practice"
+                    para.innerHTML= "Here you use the information from the learning stage to trial the skill. There will be numerous failed attempts until you become comfortable processing the learnt information into practice"
                     document.getElementById("experiment").appendChild(para);
                     para.setAttribute("onmouseover", "experiment()");
             }
@@ -76,7 +84,7 @@
         </script>
 
             <div id="perform" class="expand-1" onmouseover="perform()" onmouseout="performOut()">
-                <h1 class="Perform">Perform</h1>
+                <h1 class="step Perform">Perform</h1>
             </div>
 
             <script>
@@ -96,7 +104,7 @@
             </script>
 
             <div id="struggle" class="expand-2" onmouseover="struggle()" onmouseout="struggleOut()">
-                <h1 class="Struggle">Struggle</h1>
+                <h1 class="step Struggle">Struggle</h1>
             </div>
 
             <script>
@@ -115,7 +123,7 @@
             </script>
 
             <div id="thrive" id="" class="expand-1" onmouseover="thrive()" onmouseout="thriveOut()">
-                <h1 class="Thrive">Thrive</h1>
+                <h1 class="step Thrive">Thrive</h1>
             </div>
 
             <script>
