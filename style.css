@@ -24,6 +24,7 @@ iframe {
 
 .logo {
 	margin: 0 30px;
+	width: 100%;
 }
 
 .logo h1 {
@@ -31,6 +32,7 @@ iframe {
 	font-weight: 800;
 	font-family: 'Nunito', sans-serif;
 	font-weight: 800;
+	width: 100%;
 }
 
 .logo span {
@@ -95,7 +97,7 @@ a:visited {
 
 .about-wrapper p {
 	margin: 10px 0;
-	font-size: 16px;
+	font-size: 20px;
 	font-family: 'Nunito', sans-serif;
 	font-weight: 300;
 	padding: 0 30px;
@@ -140,7 +142,7 @@ a:visited {
 .step {
 	font-weight: 100;
 	font-family: 'Nunito', sans-serif;
-	font-weight: 800;
+	font-weight: 300;
 }
 
 /* .learn:hover {
@@ -224,6 +226,9 @@ a:visited {
 
 	.nav ul {
 		margin: 0 10px;
+	}
+	.about-wrapper p {
+		font-size: 16px;
 	}
 }
 
