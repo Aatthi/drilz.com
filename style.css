@@ -5,7 +5,7 @@
 }
 
 body {
-	background-color: rgba(0, 0, 0, 0.1);
+	background-color: #ffff;
 }
 
 .header-wrapper {
@@ -13,7 +13,7 @@ body {
 	justify-content: space-between;
 	text-align: center;
 	align-items: center;
-	background-color: rgba(0, 0, 0, 0.05);
+	background-color: #ffff;
 }
 
 /* 
@@ -33,6 +33,7 @@ iframe {
 	font-family: 'Nunito', sans-serif;
 	font-weight: 800;
 	width: 100%;
+	color: #ba181b;
 }
 
 .logo span {
@@ -67,12 +68,12 @@ iframe {
 }
 
 a:visited {
-	color: black;
+	color: #ba181b;
 	text-decoration: none;
 }
 
 .header-wrapper a:hover {
-	background: black;
+	background: #ba181b;
 	color: white;
 }
 
@@ -94,7 +95,7 @@ video {
 	justify-content: flex-start;
 	align-items: center;
 	text-align: center;
-	background-color: rgba(0, 0, 0, 0.05);
+	background-color: #ffff;
 	width: 100%;
 	padding: 50px 0;
 }
@@ -196,13 +197,13 @@ video {
 
 .expand-1:hover {
 	color: white;
-	background-color: rgba(0, 0, 0, 0.9);
+	background-color: #ba181b;
 	color: white;
 }
 
 .expand-2:hover {
 	color: white;
-	background-color: rgba(0, 0, 0, 0.9);
+	background-color: #ba181b;
 	color: white;
 }
 
