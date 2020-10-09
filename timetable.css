@@ -87,10 +87,14 @@ table {
 	margin: 0 auto;
 }
 
+th {
+	border-bottom: none;
+}
+
 table,
 th,
 td {
-	border: 3px solid rgba(0, 0, 0, 0.801);
+	border: 1px solid rgba(0, 0, 0, 0.801);
 }
 
 .time {
