@@ -5,7 +5,15 @@
 }
 
 .square {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.square div {
 	width: 100px;
 	height: 100px;
 	background: red;
+	border: 3px solid red;
 }

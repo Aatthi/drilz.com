@@ -4,11 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="square.css">
 </head>
 <body>
-    <div class="square">
-        
+    <div>
+        <div id="square" class="square"></div>
     </div>
+
+
 </body>
+<script>
+
+    function myFunction() {
+                 document.getElementById("square").style.border = "1px solid green";
+                
+    
+            }
+    function otherfunction() {
+                document.getElementById("square").style.border = "1px solid blue";
+            }
+    
+    
+            let question = prompt("How many Pages did you read today?")
+            if (question > 5){
+                myFunction();
+            } else if (question < 5){
+                otherfunction();
+            }
+    
+         
+        </script>
 </html>
