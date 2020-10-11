@@ -69,7 +69,7 @@ iframe {
 }
 
 a:visited {
-	color: #ba181b;
+	color: black;
 	text-decoration: none;
 }
 
@@ -114,6 +114,7 @@ video {
 	font-size: 50px;
 	font-family: 'Nunito', sans-serif;
 	font-weight: 800;
+	color: #ba181b;
 }
 
 .main {
@@ -138,6 +139,10 @@ video {
 	font-style: italic;
 	font-family: 'Nunito', sans-serif;
 	font-weight: 300;
+}
+
+.skill-aq h1 {
+	color: #ba181b;
 }
 
 .main div {
@@ -224,7 +229,7 @@ video {
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		height: 100px;
+		height: 200px;
 	}
 
 	.header-wrapper a {

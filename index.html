@@ -94,6 +94,7 @@
                 function perform(){
                     const para = document.createElement("P");
                     para.setAttribute("id", "para");
+                    para.setAttribute("onmousedown", "perform()");
                     para.innerHTML = "Here you use both what you have learnt from the experiment stage and implement it into the in-game situation";
                     document.getElementById("perform").appendChild(para)
                 }
