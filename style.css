@@ -84,11 +84,17 @@ a:visited {
 	justify-content: center;
 	align-items: center;
 	background-color: transparent;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3), 0 2px 10px rgba(0, 0, 0, 0.1) inset;
+	width: 80%;
+	margin: 0 auto;
 }
 
 video {
 	outline: none;
 	width: 90%;
+
+	padding: 30px 0;
+	height: 600px;
 }
 
 .about-wrapper {
@@ -98,8 +104,10 @@ video {
 	align-items: center;
 	text-align: center;
 	background-color: #ffff;
-	width: 100%;
+
 	padding: 50px 0;
+
+	margin-bottom: 100px;
 }
 
 .about-wrapper p {
@@ -123,7 +131,9 @@ video {
 	flex-direction: column;
 	min-height: 100vh;
 	align-items: center;
-	width: 100%;
+	width: 80%;
+	box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3), 0 10px 40px rgba(0, 0, 0, 0.1) inset;
+	margin-bottom: 100px;
 }
 
 .skill-aq {
@@ -131,7 +141,7 @@ video {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	width: 100%;
+	width: 80%;
 }
 
 .skill-aq p {
@@ -268,6 +278,7 @@ video {
 	justify-content: center;
 	align-items: center;
 	width: 100%;
+	padding: 40px 0;
 }
 
 .copyRight a {
